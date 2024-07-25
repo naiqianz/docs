@@ -24,9 +24,19 @@ const isProd = process.env.NODE_ENV === 'production'
 
 export default defineUserConfig<DefaultThemeOptions>({
   base: '/get/',
-  lang: 'en-US',
-  title: 'Uptrace',
-  description: 'Distributed tracing and Metrics powered by OpenTelemetry and ClickHouse',
+
+  locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'Uptrace',
+      description: 'Distributed tracing and Metrics powered by OpenTelemetry and ClickHouse',
+    },
+    '/zh/': {
+      lang: 'zh-CN',
+      title: 'Uptrace',
+      description: '',
+    },
+  },
 
   head: [
     [
