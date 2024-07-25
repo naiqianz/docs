@@ -2,7 +2,11 @@
 
 ## Getting started
 
-This project requires pnpm with [shamefully-hoist](https://pnpm.io/npmrc#shamefully-hoist):
+Prerequisites:
+
+- Node.js v20+
+
+If you're using pnpm, please enable [shamefully-hoist](https://pnpm.io/npmrc#shamefully-hoist):
 
 ```ini
 shamefully-hoist=true
@@ -14,7 +18,7 @@ Install dependencies:
 pnpm install
 ```
 
-Serve the site:
+Serve the documentation:
 
 ```shell
 pnpm docs:dev

@@ -2,7 +2,7 @@
 
 Getting started with Uptrace and OpenTelemetry is easy:
 
-1. To host Uptrace yourself, [download and install](install.html) Uptrace binary. Or [create](https://app.uptrace.dev/join) a free cloud account and let us manage Uptrace for you.
+1. To host Uptrace yourself, [download and install](install.md) Uptrace binary. Or [create](https://app.uptrace.dev/join) a free cloud account and let us manage Uptrace for you.
 
 2. To start receiving data, use the [DSN](#dsn) (connection string) you've obtained on the previous step to configure OpenTelemetry for your programming language.
 
