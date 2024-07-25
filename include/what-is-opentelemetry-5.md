@@ -1,0 +1,3 @@
+[OpenTelemetry](https://uptrace.dev/opentelemetry/) defines APIs and protocols for collecting telemetry data such as metrics, traces, and logs, and provides a variety of libraries, agents, and integrations for popular programming languages and technologies.
+
+OpenTelemetry is an open and vendor-neutral solution that provides a unified approach to observability, making it easier for organizations to manage the complexity of their cloud-native infrastructure. It enables organizations to collect telemetry from their applications and send it to a variety of of [distributed tracing tools](https://uptrace.dev/blog/distributed-tracing-tools.html).

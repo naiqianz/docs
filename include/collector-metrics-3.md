@@ -1,0 +1,3 @@
+[OpenTelemetry Collector](https://uptrace.dev/opentelemetry/collector.html) facilitates the collection, processing, and export of telemetry data from multiple sources. It acts as an intermediary between applications and observability backends, enabling unified data collection and export.
+
+With OpenTelemetry Collector, you can centralize and standardize your telemetry data collection, apply data processing operations, and seamlessly export data to multiple [OpenTelemetry backends](https://uptrace.dev/blog/opentelemetry-backend.html). It supports a range of processors that can manipulate data, apply sampling strategies, and perform other data transformations based on your requirements.

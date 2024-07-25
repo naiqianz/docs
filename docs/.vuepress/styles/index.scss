@@ -1,0 +1,71 @@
+.theme-default-content {
+  h3 {
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--c-border);
+    transition: border-color var(--t-color);
+  }
+
+  hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  img.medium-zoom-image {
+    border: 1px solid var(--c-border);
+    border-radius: 8px;
+  }
+}
+
+.md-enhance-mermaid {
+  overflow-x: auto !important;
+}
+
+.grid--devicons {
+  .el-col {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  img {
+    height: 80px;
+    margin-bottom: 8px;
+  }
+}
+
+.spacer {
+  flex-grow: 1 !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+@media (min-width: 800px) {
+  .d-sm-block {
+    display: block !important;
+  }
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center !important;
+}
+
+.justify-space-between {
+  justify-content: space-between !important;
+}
+
+.text-no-wrap {
+  white-space: nowrap;
+}
